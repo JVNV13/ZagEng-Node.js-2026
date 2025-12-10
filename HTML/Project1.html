@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Form</title>
+</head>
+<body>
+
+<h2>PLEASE FILL THE BOXES BELOW</h2>
+
+<form>
+
+    <label>Full Name</label><br>
+    <input type="text" name="fullname"><br><br>
+
+    <label>E-mail</label><br>
+    <input type="email" name="email" placeholder="ex: myname@example.com"><br><br>
+
+    <label>Recipient Phone Number</label><br>
+    <input type="text" name="phone"><br><br>
+
+    <label>Preference</label><br>
+    <input type="checkbox" name="pref1"> Exchange my current cylinder with a prefilled cylinder<br>
+    <input type="checkbox" name="pref2"> Pick my cylinder, refill and return it to my location<br><br>
+
+    <label>My Cylinder Size is</label><br>
+    <select name="size">
+        <option>Select size</option>
+        <option>10kg</option>
+        <option>15kg</option>
+        <option>20kg</option>
+        <option>25kg</option>
+    </select><br><br>
+
+    <label>Quantity Required</label><br>
+    <input type="number" name="qty"><br><br>
+
+    <label>AMOUNT DUE</label><br>
+    <input type="text" name="amount"><br><br>
+
+    <label>Delivery Address (Please include nearest landmarks)</label><br>
+    <textarea name="address" rows="4" cols="40"></textarea><br><br>
+
+    <button type="submit">Place Order</button>
+
+</form>
+
+</body>
+</html>
